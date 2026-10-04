@@ -133,7 +133,7 @@ function About() {
           <aside className="self-start rounded-2xl border border-foreground/10 bg-background/55 p-7 shadow-soft">
             <p className="section-label">Quick facts</p>
             <dl className="mt-6 divide-y divide-foreground/10">
-              {[['Based', 'United States'], ['Focus', 'Full-stack systems'], ['Industries', 'Finance · Health · HR'], ['Status', 'Open to opportunities']].map(([term, detail]) => (
+              {[['Based', 'United States'], ['Focus', 'Full-stack systems'], ['Industries', 'Finance · Health · HR']].map(([term, detail]) => (
                 <div key={term} className="grid grid-cols-[90px_1fr] gap-4 py-4 first:pt-0 last:pb-0"><dt className="text-sm text-muted-foreground">{term}</dt><dd className="font-medium">{detail}</dd></div>
               ))}
             </dl>
