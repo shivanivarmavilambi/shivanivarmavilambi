@@ -23,7 +23,7 @@ export const socials = {
 };
 
 export const skills: SkillGroup[] = [
-  { title: "Languages & frontend", category: "Frontend", items: ["Java", "JavaScript", "TypeScript", "SQL", "React", "Redux Toolkit", "React Hooks", "React Hook Form", "Material UI", "HTML5", "CSS3", "Axios", "Recharts"] },
+  { title: "Languages & frontend", category: "Frontend", items: ["Java", "JavaScript", "TypeScript", "SQL", "React", "Redux Toolkit", "React Hooks", "React Hook Form", "Material UI", "HTML5", "CSS3", "Axios", "Recharts", "Angular"] },
   { title: "Backend & APIs", category: "Backend", items: ["Spring Boot", "Spring MVC", "Spring Security", "Spring Data JPA", "Hibernate", "Node.js", "Express.js", "Microservices", "REST", "JAX-RS", "SOAP", "Event-Driven Architecture", "Apache Kafka"] },
   { title: "Cloud & delivery", category: "Cloud", items: ["AWS EKS", "AWS ECS", "EC2", "S3", "RDS", "Lambda", "API Gateway", "Azure DevOps", "Azure App Service", "Docker", "Kubernetes", "Jenkins", "CI/CD"] },
   { title: "AI & intelligent systems", category: "AI/ML", items: ["Machine Learning", "TensorFlow", "PyTorch", "NLP", "Generative AI", "LLMs", "Prompt Engineering", "RAG", "Embeddings", "Vector Databases", "MLOps"] },
