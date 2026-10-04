@@ -82,7 +82,7 @@ function Hero() {
     <section id="top" className="relative overflow-hidden bg-background px-5 pb-16 pt-32 sm:px-8 sm:pb-24 sm:pt-40">
       <div className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[1.2fr_.8fr]">
         <div className="relative z-10">
-          <p className="section-label">Senior Full Stack Developer</p>
+          <p className="section-label">SOFTWARE DEVELOPER</p>
           <h1 className="mt-6 font-display text-[clamp(3.6rem,8vw,7.7rem)] leading-[.84]">
             Shivani<br /><span className="italic text-primary">Varma</span> Vilambi
           </h1>
