@@ -96,9 +96,7 @@ function Hero() {
         </div>
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="portrait-frame relative aspect-[4/5] overflow-hidden border border-foreground/10 bg-lavender shadow-portrait">
-            <div className="absolute inset-0 grid place-items-center">
-              <span className="font-display text-[11rem] leading-none text-primary/25 sm:text-[14rem]">SV</span>
-            </div>
+            <img src={portrait.url} alt="Shivani Varma Vilambi" className="absolute inset-0 size-full object-cover object-[68%_50%]" />
             <div className="absolute bottom-8 left-1/2 w-[80%] -translate-x-1/2 rounded-2xl border border-background/70 bg-background/80 px-5 py-4 text-center backdrop-blur-md">
               <p className="font-display text-2xl">Building across the stack</p>
               <p className="mt-1 text-sm text-muted-foreground">React · Spring · Node · Cloud</p>
