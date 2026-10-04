@@ -168,7 +168,7 @@ function Skills() {
 }
 
 function ExperienceTimeline() {
-  const [expanded, setExpanded] = useState<string | null>(experiences[0].company);
+  const [expanded, setExpanded] = useState<string | null>(experiences[0]?.company ?? null);
   return (
     <section id="experience" className="section-pad bg-blush scroll-mt-28">
       <div className="mx-auto max-w-7xl">
