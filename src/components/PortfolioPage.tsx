@@ -1,6 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { ArrowDown, ArrowRight, ArrowUp, ChevronDown, Download, ExternalLink, Linkedin, Mail, Menu, X } from "lucide-react";
 import { useEffect, useState, type FormEvent } from "react";
+import portrait from "@/assets/shivani-portrait.jpg.asset.json";
 import { Button } from "@/components/ui/button";
 import { experiences, navigation, projects, skills, socials } from "@/data/portfolio";
 import { cn } from "@/lib/utils";
