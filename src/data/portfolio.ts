@@ -18,7 +18,7 @@ export const navigation = ["About", "Skills", "Experience", "Projects", "Educati
 
 export const socials = {
   email: "vilambishivanivarma@outlook.com",
-  linkedIn: "http://www.linkedin.com/in/shivani-varmavilambi",
+  linkedIn: "https://www.linkedin.com/in/shivani-varma-vilambi",
   medium: "https://medium.com/@shivanivarmavilambi",
 };
 
