@@ -126,7 +126,7 @@ function About() {
         <div className="grid gap-10 lg:grid-cols-[1.35fr_.65fr] lg:gap-20">
           <div className="space-y-6 text-lg leading-8">
             <p>For around eight years, I’ve worked across the full software lifecycle—shaping responsive interfaces, reusable components, business services, APIs and secure microservices.</p>
-            <p>My experience spans banking, financial services, healthcare, and HR & payroll. I’m comfortable moving from React and TypeScript on the frontend to Java, Spring Boot, Node.js and event-driven systems on the backend.</p>
+            <p>My experience spans banking, financial services, healthcare, and enterprise. I’m comfortable moving from React and TypeScript on the frontend to Java, Spring Boot, Node.js and event-driven systems on the backend.</p>
             <p>I care about the systems surrounding the code too: cloud delivery, CI/CD, monitoring, production support and testing at every layer. More recently, I’ve contributed to AI-enabled workflows that make complex decisions easier to navigate.</p>
           </div>
           <aside className="self-start rounded-2xl border border-foreground/10 bg-background/55 p-7 shadow-soft">
