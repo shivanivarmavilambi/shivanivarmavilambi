@@ -96,13 +96,13 @@ function Hero() {
         </div>
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="portrait-frame relative aspect-[4/5] overflow-hidden border border-foreground/10 bg-lavender shadow-portrait">
-            <img src={portrait.url} alt="Shivani Varma Vilambi" className="absolute inset-0 size-full object-cover object-[68%_50%]" />
-            <div className="absolute bottom-8 left-1/2 w-[80%] -translate-x-1/2 rounded-2xl border border-background/70 bg-background/80 px-5 py-4 text-center backdrop-blur-md">
-              <p className="font-display text-2xl">Building across the stack</p>
-              <p className="mt-1 text-sm text-muted-foreground">React · Spring · Node · Cloud</p>
-            </div>
+            <img src={portrait.url} alt="Shivani Varma Vilambi" className="absolute inset-0 size-full object-cover object-[82%_50%]" />
           </div>
-          <div className="absolute -bottom-5 -left-3 grid size-28 rotate-[-7deg] place-items-center rounded-full bg-butter text-center shadow-sm sm:-left-10 sm:size-32">
+          <div className="absolute bottom-8 left-1/2 z-10 w-[78%] -translate-x-1/2 rounded-2xl border border-background/70 bg-background/80 px-5 py-4 text-center shadow-sm backdrop-blur-md">
+            <p className="font-display text-2xl">Building across the stack</p>
+            <p className="mt-1 text-sm text-muted-foreground">React · Spring · Node · Cloud</p>
+          </div>
+          <div className="absolute -top-4 -right-2 grid size-28 rotate-[7deg] place-items-center rounded-full bg-butter text-center shadow-sm sm:-right-6 sm:size-32">
             <span className="font-display text-2xl leading-5">8+<small className="mt-1 block font-sans text-xs font-semibold uppercase">years</small></span>
           </div>
         </div>
